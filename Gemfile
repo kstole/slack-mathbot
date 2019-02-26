@@ -2,8 +2,8 @@ source 'http://rubygems.org'
 
 ruby '2.5.3'
 
-gem 'slack-ruby-bot', '0.11.2'
-gem 'slack-ruby-client', '0.13.1'
+gem 'slack-ruby-bot'
+gem 'slack-ruby-client'
 gem 'puma'
 gem 'sinatra'
 gem 'dentaku'
