@@ -1,11 +1,14 @@
 source 'http://rubygems.org'
 
-ruby '2.2.0'
+ruby '2.5.3'
 
-gem 'slack-ruby-bot', github: 'dblock/slack-ruby-bot' # '~> 0.5.0'
+gem 'slack-ruby-bot', '0.11.2'
+gem 'slack-ruby-client', '0.13.1'
 gem 'puma'
 gem 'sinatra'
 gem 'dentaku'
+
+gem 'celluloid-io', require: %w[celluloid/current celluloid/io]
 
 group :development, :test do
   gem 'rake', '~> 10.4'
